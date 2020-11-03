@@ -10,4 +10,8 @@ describe SmartnessDetector::Detect do
   it 'RoR is smart' do
     expect(SmartnessDetector::Detect.smartness('RoR')).to eql('Smart!')
   end
+
+  it 'smartly pluralizes a word' do
+    expect(SmartnessDetector::Detect.pluralize('Smart')).to eql('Smarts')
+  end
 end

@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+require 'active_support/inflector'
 
 module SmartnessDetector
   class Detect
@@ -9,6 +10,10 @@ module SmartnessDetector
       else
         'Dull!'
       end
+    end
+
+    def self.pluralize(word)
+      word.pluralize
     end
   end
 end

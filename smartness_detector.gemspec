@@ -27,5 +27,13 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   # development dependencies
+  spec.add_development_dependency 'aruba', '~> 1.0', '>= 1.0.3'
+  spec.add_development_dependency 'cucumber', '~> 5.2'
   spec.add_development_dependency 'rspec', '~> 3.10'
+
+  # external dependencies
+  spec.add_dependency 'activesupport', '~> 6.0', '>= 6.0.3.4'
+
+  # Thor is a toolkit for building powerful command-line interfaces.
+  spec.add_dependency 'thor', '~> 1.0', '>= 1.0.1'
 end
