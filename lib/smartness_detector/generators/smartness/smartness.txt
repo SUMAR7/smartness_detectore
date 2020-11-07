@@ -1,0 +1,5 @@
+##### Ruby on Rails #####
+All <%= name %> developers are smart
+
+##### Alert #####
+Everything else is dull!

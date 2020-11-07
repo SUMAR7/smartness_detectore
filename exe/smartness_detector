@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'smartness_detector/cli'
+SmartnessDetector::CLI.start
