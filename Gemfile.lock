@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    smartness_detector (0.1.0)
+    smartness_detector (0.1.1)
       activesupport (~> 6.0, >= 6.0.3.4)
       thor (~> 1.0, >= 1.0.1)
 
